@@ -1,0 +1,420 @@
+<!Doctype html>
+<html>
+<head>
+    <title>YAHYAOUI DE DEVELOPPEMENT</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/style1.css">
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/footer-distributed-with-address-and-phones.css">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+    <style>
+        .mySlides {
+            display:none;
+        margin-left:40px;
+        margin-top:10px;
+        }
+        </style>
+<script src="../lib/angular.js"></script>
+<script src="../js/controllers5.js"></script>
+
+  <!--photos-->
+  <script type="text/javascript" src="../highslide/highslide-with-gallery.js"></script>
+  <link rel="stylesheet" type="text/css" href="../highslide/highslide.css" />
+  <script type="text/javascript">
+      hs.graphicsDir = '../highslide/graphics/';
+      hs.align = 'center';
+      hs.transitions = ['expand', 'crossfade'];
+      hs.fadeInOut = true;
+      hs.outlineType = 'rounded-white';
+      hs.headingEval = 'this.a.title';
+      hs.numberPosition = 'heading';
+      hs.useBox = true;
+      hs.width = 600;
+      hs.height = 400;
+      hs.showCredits = false;
+      //hs.dimmingOpacity = 0.8;
+  
+      // Add the slideshow providing the controlbar and the thumbstrip
+      hs.addSlideshow({
+          //slideshowGroup: 'group1',
+          interval: 5000,
+          repeat: false,
+          useControls: true,
+          fixedControls: 'fit',
+          overlayOptions: {
+              position: 'top right',
+              offsetX: 200,
+              offsetY: -65
+          },
+          thumbstrip: {
+              position: 'rightpanel',
+              mode: 'float',
+              relativeTo: 'expander',
+              width: '210px'
+          }
+      });
+  
+      // Make all images animate to the one visible thumbnail
+      var miniGalleryOptions1 = {
+          thumbnailId: 'thumb1'
+      }
+  </script>
+<!--button play sound script-->
+  
+<script>
+    var bleep = new Audio();
+    bleep.src = '../button-14.wav';
+    </script>
+
+    </head>
+    <body>
+
+      <!--header-->
+      <div class="jumbotron" style=" background-image: url(../pp4.gif); padding-bottom:0.5%;padding-top:5%;height:300px;">
+        <center><h3 style="padding-bottom:0px;padding-top:0px;"><span class="x1">Etude  et Réalisation des Projets Hydroagricoles</span></h3></center><br>
+        
+     </div>
+        <div id="app" class="container">
+           
+           
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                        <a class="nav-link"><img src="../images/logo.png" width="70px" height="30px" style="margin-right:0px;"></a>
+                    <a class="navbar-brand" href="#">YAHYAOUI DE DEVELOPPEMENT</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                        <ul class="navbar-nav mr-auto">
+                           
+            
+                        </ul>
+                        <ul class="navbar-nav">
+                                <li class="nav-item ">
+                                    
+                                        <a class="btn btn-outline-success" href="../index.html" onmousedown="bleep.play()">Accuiel</a>
+                                    </li>
+                                   
+                                        <li class="nav-item dropdown">
+                                            <a class="btn btn-outline-success dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Produits
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                    <a class=" dropdown-item" href="produits.html" onmousedown="bleep.play()">Accessoires</a>
+                                                    <a class="dropdown-item" href="conduites.html" onmousedown="bleep.play()">Conduites en PVC</a>
+                                                    <a class="dropdown-item" href="pompage.html" onmousedown="bleep.play()">Pompage</a>
+                                                    <a class="dropdown-item" href="filtrations.html" onmousedown="bleep.play()">Filtration</a>
+                                                    <a class="dropdown-item" href="pivots.html" onmousedown="bleep.play()">Pivots</a>
+                                                    <a class="dropdown-item" href="Micro-Irrigation.html" onmousedown="bleep.play()">Micro-irrigation</a>
+                                                    <a class="dropdown-item" href="serres.html" onmousedown="bleep.play()">serres</a>
+                                                    <a class="dropdown-item" href="Revêtement-Bassins.html" onmousedown="bleep.play()">Revetements bassins</a>
+                                                    <a class="dropdown-item" href="conduites.html" onmousedown="bleep.play()">Arrosage</a>
+                                                </div>
+                                        </li>
+                                    </li>
+    
+                                    <li class="nav-item">
+                                        <a class="btn btn-outline-success" href="eau.html" onmousedown="bleep.play()">Préserver L’eau</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="btn btn-outline-success" href="projets.html" onmousedown="bleep.play()">Projets</a>
+                                    </li>
+                      
+                            <li class="nav-item">
+                                <a class="btn btn-outline-success" href="contact.html" onmousedown="bleep.play()">Contact</a>
+                            </li>
+    
+                            <li class="nav-item">
+                               
+                                <div class="highslide-gallery">
+                                   
+                                        <a class='highslide btn btn-outline-success' id="thumb1" href='../images/thumbstrip11.jpg' onclick="return hs.expand(this, miniGalleryOptions1)" title="Two cabins" onmousedown="bleep.play()">
+                                            
+                                            Photos</a>
+                                         
+                                        <div class="hidden-container">
+                                            <a class='highslide' href='../images/thumbstrip09.jpg' onclick="return hs.expand(this)"
+                                                    title="Ptarmigan">
+                                                <img src='../images/thumbstrip09.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip12.jpg' title="Patterns in the snow"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip12.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip13.jpg' title="Cabins"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip13.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip14.jpg' title="Old stone cabins"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip14.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip15.jpg' title="A litte open water"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip15.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip16.jpg' title="Dipper"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip16.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip17.jpg' title="Dipper"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip17.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip18.jpg' title="Mountains"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip18.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip19.jpg' title="Birch trees"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip19.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip20.jpg' title="Highland woods"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip20.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip21.jpg' title="Frozen lake"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip21.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip22.jpg' title="Spring in the mountains"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip22.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip23.jpg' title="Spring in the mountains"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip23.thumb.png' alt=''/></a>
+                                    
+                                            <a class='highslide' href='../images/thumbstrip24.jpg' title="Fjord landscape"
+                                                    onclick="return hs.expand(this, miniGalleryOptions1)">
+                                                <img src='../images/thumbstrip24.thumb.png' alt=''/></a>
+                                    
+                                        </div>
+                                    </div>
+                    
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+    
+   
+
+           
+                
+            <!--!!!!!!!!!!!!!!!!!!!-->
+        
+      <!---->
+      <section ng-app="myApp"  ng-controller="MyController"  id="team" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading ">Nos Produits d’irrigation</h2>
+
+                            <div class="alert alert-light" role="alert">
+                                Notre patrimoine s'accumule avec des années d'expérience en irrigation.
+                                Raccords, tubes en aluminium et pompes à travers des bobines,
+                                Échelles, axes et linéaires, nous proposons de créer une large gamme de produits
+                              </div>
+                </div>
+              
+                <div class="row"  >
+    
+                    <div class="col-sm-4">
+                       
+    
+                            <center>
+                        <table border="1px solid black; " class="table table-bordered table-hover" style="margin-left: 100px;width: 900px; ">
+                            <th style="text-align: center;" colspan="3">
+                                <h3 data-fontsize="17" data-lineheight="23"><strong>      <div class="form-group">
+                                        <input type="text" ng-model="query" class="form-control" placeholder="Rechercher" autofocus>
+                                     </div> </strong></h3>
+                                </th>
+                             <tr>    
+                               <td class="card-text alert alert-info">type</td>
+                                <td class="card-text alert alert-info">Photo</td>
+                                <td class="card-text alert alert-info">Nom</td>
+                                <td  class="card-text alert alert-info">Designation</td>
+                            </tr>
+                        
+
+                            <tr ng-repeat="item in base |filter:query">
+                          <td><h4>{{item.type}}</h4></td>
+                                <td>
+                 <img ng-src="../image/{{item.imagename}}.PNG" class="img-responsive img-circle" alt="{{item.imagename}}" style="width: 150px;height: 100px;padding-left:10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
+     
+                                </td>
+                                <td><h4>{{item.name}}</h4></td>
+                                <td><p class="text-muted alert alert-light" style="text-align: justify;" >{{item.job}}</p></td>
+                               
+                            </tr>
+                    </table>
+              </center>
+
+              
+            </div>   
+    
+        </div>
+    </div>
+    
+    </section>
+        <!--footer-->
+        <section class="container pt-3">
+            <div class="row">
+      
+            </div>
+        </section>
+
+        <section class="carousel slide" data-ride="carousel" id="postsCarousel" data-interval="2000">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-md-right lead">
+                        <a class="btn btn-secondary-outline prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                        <a class="btn btn-secondary-outline next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container pt-0 mt-2">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card-deck">
+                        <div class="card h-100">
+                            <div class="card-img-top card-img-top-250">
+                              <center><img class="img-fluid" src="../partenaria/p1.jpg" alt="Carousel 1"  style="height:100px;"></center> 
+                            </div>
+                            <div class="card-body pt-2">
+                                <center> <h4>Insight</h4></center> 
+                                
+                            </div>
+                        </div>
+
+                        <div class="card h-100">
+                            <div class="card-img-top card-img-top-250">
+                                    <center>    <img class="img-fluid" src="../partenaria/p2.jpg" alt="Carousel 2"  style="height:100px;"> </center>
+                            </div>
+                            <div class="card-body pt-2">
+                                <center> <h4>Insight</h4></center> 
+                            </div>
+                        </div>
+                        <div class="card h-100">
+                            <div class="card-img-top card-img-top-250">
+                                    <center>    <img class="img-fluid" src="../partenaria/p3.png" alt="Carousel 3"  style="height:100px;"> </center>
+                            </div>
+                            <div class="card-body pt-2">
+                                <center> <h4>Insight</h4></center> 
+                               
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                    <center>  <img class="img-fluid" src="../partenaria/p4.jpg" alt="Carousel 4"  style="height:100px;"> </center>
+                            </div>
+                            <div class="card-body pt-2">
+                                <center> <h4>Insight</h4></center> 
+                              
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                    <center>    <img class="img-fluid" src="../partenaria/p5.png" alt="Carousel 5"  style="height:100px;"> </center>
+                            </div>
+                            <div class="card-body pt-2">
+                                <center> <h4>Insight</h4></center> 
+                               
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                    <center> <img class="img-fluid" src="../partenaria/p5.png" alt="Carousel 6" style="height:100px;">  </center>
+                            </div>
+                            <div class="card-body pt-2">
+                                <center> <h4>Insight</h4></center> 
+                               
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                 <!--footer-->
+             <footer class="footer-distributed">
+
+                <div class="footer-left">
+    
+                    <h3>YAHYAOUI<span> DE DEVELOPPEMENT</span></h3>
+    
+                    <p class="footer-links">
+                        <a href="#">Accuiel</a>
+                        ·
+                        <a href="#">Produits</a>
+                        ·
+                        <a href="#">Projets</a>
+                        ·
+                        <a href="#">Préserver L’eau</a>
+                        ·
+                        <a href="#">link1</a>
+                        ·
+                        <a href="#">Contact</a>
+                        .
+                        <a href="#">photos</a>
+                    </p>
+    
+                    <p class="footer-company-name">YAHYAOUI DE DEVELOPPEMENT &copy; 2018  By YOUSSEF HRIBACH ET NABIL KADOUSSI</p>
+                </div>
+    
+                <div class="footer-center">
+    
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>N°4, Av des far Résidence Abraj Al Madina V.N</span> Meknès, Maroc</p>
+                    </div>
+    
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+212 661408590</p>
+                    </div>
+    
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">support@company.com</a></p>
+                    </div>
+    
+                </div>
+    
+                <div class="footer-right">
+    
+                    <p class="footer-company-about">
+                        <span>Activité :</span>
+                        travaux divers, installation d'irrigation goutte à goutte et pompage. emballage et recouvrement des bassins.
+                    </p>
+               
+                    <div class="footer-icons">
+    
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+    
+            </footer>
+                <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+       
+</body>
+</html>
